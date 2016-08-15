@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"env": { "es6": true },
 	"rules": {
 		"arrow-body-style": "warn",

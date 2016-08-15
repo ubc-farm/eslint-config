@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"env": { "node": true },
 	"parserOptions": {
 		"env": { "node": true	}

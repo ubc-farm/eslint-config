@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"parserOptions": {
 		"env": { 
 			"es6": true,

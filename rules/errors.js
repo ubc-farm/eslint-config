@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"rules": {
 		"no-case-declarations": "error",
 		"no-console": "warn",

@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"env": {
 		"browser": true,
 		"worker": true,
@@ -6,13 +6,13 @@
 	},
 	"extends": [
 		"eslint:recommended", 
-		"./rules/errors.json",
-		"./rules/es6.json",
-		"./rules/imports.json",
-		"./rules/modules.json",
-		"./rules/node.json",
-		"./rules/react.json",
-		"./rules/variables.json"
+		"./rules/errors.js",
+		"./rules/es6.js",
+		"./rules/imports.js",
+		"./rules/modules.js",
+		"./rules/node.js",
+		"./rules/react.js",
+		"./rules/variables.js"
 	],
 	"installedESLint": true,
 	"rules": {
