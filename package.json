@@ -1,0 +1,15 @@
+{
+	"name": "eslint-config-notwoods",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "ubc-farm/eslint-config-notwoods",
+	"author": "Tiger Oakes (http://tigeroakes.com)",
+	"license": "MIT",
+	"dependencies": {
+		"eslint-plugin-import": "^1.13.0",
+		"eslint-plugin-react": "^6.1.0"
+	},
+	"engines": {
+		"node": ">= 4"
+	}
+}
