@@ -20,6 +20,10 @@ module.exports = {
 		],
 		// continue is allowed
 		"no-continue": "off",
+		// finally returns are used in generators
+		"no-unsafe-finally": "off",
+		// allow constant conditions for generator loops
+		"no-constant-condition": ["warn", {checkLoops: false}],
 
 		"linebreak-style": "off",
 		// Since rollup is used to bundle in dependencies,
