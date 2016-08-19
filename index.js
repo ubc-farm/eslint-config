@@ -1,25 +1,22 @@
 module.exports = {
+	"extends": "airbnb",
 	"env": {
-		"browser": true,
-		"worker": true,
-		"serviceworker": true
+		"browser": true
 	},
-	"extends": [
-		"eslint:recommended", 
-		"./rules/errors.js",
-		"./rules/es6.js",
-		"./rules/imports.js",
-		"./rules/modules.js",
-		"./rules/node.js",
-		"./rules/react.js",
-		"./rules/variables.js"
-	],
-	"installedESLint": true,
 	"rules": {
-		"indent": ["warn",	"tab", {"SwitchCase": 1}],
-		"quotes": ["error",	"single",
-			{"allowTemplateLiterals": true}
-		],
-		"semi": "off"
+		// Using tabs for indents, not spaces
+		"indent": ["warn", "tab"],
+		"react/jsx-indent": ["warn", "tab"],
+		"react/jsx-indent-props": ["warn", "tab"],
+
+		"linebreak-style": "off",
+		// Since rollup is used to bundle in dependencies,
+		// some files will be imported from devDependencies.
+		"import/no-extraneous-dependencies": ["error", {
+			"devDependencies": true
+		}],
+		// Avoid using the jsx extension to maintain consistent
+		// filenames between the source and compiled files, especially for imports.
+		"react/jsx-filename-extension": ["error", { "extensions": [".js"] }]
 	}
 }
