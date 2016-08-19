@@ -5,9 +5,21 @@ module.exports = {
 	},
 	"rules": {
 		// Using tabs for indents, not spaces
-		"indent": ["warn", "tab"],
+		"indent": ["warn", "tab", {
+			SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1
+		}],
 		"react/jsx-indent": ["warn", "tab"],
 		"react/jsx-indent-props": ["warn", "tab"],
+
+		// For...in loops should be allowed
+		'no-restricted-syntax': [
+			"error",
+			'DebuggerStatement',
+			'LabeledStatement',
+			'WithStatement',
+		],
+		// continue is allowed
+		"no-continue": "off",
 
 		"linebreak-style": "off",
 		// Since rollup is used to bundle in dependencies,
