@@ -53,13 +53,6 @@ module.exports = {
       allow: [],
     }],
 
-		'no-magic-numbers': ['error', {
-      ignore: [],
-      ignoreArrayIndexes: true,
-      enforceConst: true,
-      detectObjects: false,
-    }],
-
 		// Marked as TODO enable by airbnb
 		'no-template-curly-in-string': 'warn',
 	}
