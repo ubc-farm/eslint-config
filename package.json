@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-notwoods",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"main": "index.js",
 	"repository": "ubc-farm/eslint-config-notwoods",
 	"author": "Tiger Oakes (http://tigeroakes.com)",

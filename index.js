@@ -33,6 +33,34 @@ module.exports = {
 		}],
 		// Avoid using the jsx extension to maintain consistent
 		// filenames between the source and compiled files, especially for imports.
-		"react/jsx-filename-extension": ["error", { "extensions": [".js"] }]
+		"react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+
+		// Only use ES2015 modules for rollup tree-shaking
+		"import/no-commonjs": "error",
+		"import/named": "error",
+		"import/default": "error",
+		'import/namespace': ["error", { allowComputed: true }],
+
+		// Marked as TOOD enable by airbnb
+		// Leaving call because otherwise defeats the point of prefer-spread.
+		"prefer-reflect": ["error", "call"],
+
+		// implicit type conversion is confusing
+		'no-implicit-coercion': ["error", {
+      boolean: false,
+      number: true,
+      string: true,
+      allow: [],
+    }],
+
+		'no-magic-numbers': ['error', {
+      ignore: [],
+      ignoreArrayIndexes: true,
+      enforceConst: true,
+      detectObjects: false,
+    }],
+
+		// Marked as TODO enable by airbnb
+		'no-template-curly-in-string': 'warn',
 	}
 }
