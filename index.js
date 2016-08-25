@@ -43,7 +43,7 @@ module.exports = {
 
 		// Marked as TOOD enable by airbnb
 		// Leaving call because otherwise defeats the point of prefer-spread.
-		"prefer-reflect": ["error", "call"],
+		"prefer-reflect": ["error", { "exceptions": ["call"] }],
 
 		// implicit type conversion is confusing
 		'no-implicit-coercion': ["error", {
