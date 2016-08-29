@@ -14,5 +14,12 @@
 	},
 	"engines": {
 		"node": ">= 4"
+	},
+	"eslintConfig": {
+		"rules": {
+			"quotes": ["error", "double"],
+			"quote-props": ["error", "always"],
+			"import/no-commonjs": "off"
+		}
 	}
 }
