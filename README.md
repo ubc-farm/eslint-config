@@ -8,10 +8,11 @@ npm install -g ubc-farm/eslint-config eslint-config-airbnb@^10.0.1 eslint@^3.4.0
 *for other ubc-farm modules*
 
 ### Command Line
-**.eslintrc**
+globalconfig.json
 ```json
 { "extends": "notwoods" }
 ```
+
 ```
 eslint -c globalconfig.json myfiletotest.js
 ```
