@@ -1,0 +1,17 @@
+---
+	# Simply to prevent most unwanted airbnb config errors.
+	# Doesn't include specialized rules
+  extends: airbnb-base
+  rules:
+    # Using tabs for indents, not spaces
+    indent:
+      - warn
+      - tab
+      - { SwitchCase: 1, VariableDeclarator: 1,	outerIIFEBody: 1 }
+    no-tabs: off
+
+    # Handled by git
+    linebreak-style: off
+
+    # Needed by rollup without plugins
+    import/extensions: off

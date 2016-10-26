@@ -1,0 +1,13 @@
+---
+  extends:
+    - ./index.yaml
+    - airbnb
+  # Note: requires the eslint-plugin-react and eslint-plugin-jsx-a11y
+  # dependencies
+  rules:
+    react/jsx-indent:
+      - warn
+      - tab
+    react/jsx-indent-props:
+      - warn
+      - tab

@@ -1,25 +1,22 @@
 {
-	"name": "eslint-config-notwoods",
-	"version": "2.0.0",
-	"main": "index.js",
-	"repository": "ubc-farm/eslint-config-notwoods",
+	"name": "@ubc-farm/eslint-config-ubc-farm",
+	"version": "4.0.0",
+	"main": "index.yaml",
+	"repository": "ubc-farm/eslint-config",
 	"author": "Tiger Oakes (http://tigeroakes.com)",
 	"license": "MIT",
+	"dependencies": {
+		"eslint-config-airbnb": "^12.0.0"
+	},
 	"peerDependencies": {
-		"eslint": "^3.4.0",
-		"eslint-config-airbnb": "^10.0.1",
-		"eslint-plugin-import": "^1.14.0",
-		"eslint-plugin-react": "^6.2.0",
-		"eslint-plugin-jsx-a11y": "^2.2.0"
+		"eslint": "^3.8.1",
+		"eslint-plugin-import": "^2.0.1"
+	},
+	"optionalDependencies": {
+		"eslint-plugin-jsx-a11y": "^2.2.3",
+		"eslint-plugin-react": "^6.4.1"
 	},
 	"engines": {
-		"node": ">= 4"
-	},
-	"eslintConfig": {
-		"rules": {
-			"quotes": ["error", "double"],
-			"quote-props": ["error", "always"],
-			"import/no-commonjs": "off"
-		}
+		"node": ">= 6"
 	}
 }
