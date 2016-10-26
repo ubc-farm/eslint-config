@@ -1,4 +1,4 @@
-# eslint-config-ubc-farm
+# eslint-config
 ESLint configuration for ubc-farm modules.
 Includes multiple configurations.
 
@@ -22,3 +22,8 @@ Adds the React oriented rules of the full airbnb config and enforces tab usage.
 yarn add ubc-farm/eslint-config eslint@^3.8.1 eslint-plugin-import@^1.14.0
 ```
 
+## usage
+```yaml
+---
+  extends: '@ubc-farm/eslint-config'
+```

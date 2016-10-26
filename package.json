@@ -1,5 +1,5 @@
 {
-	"name": "@ubc-farm/eslint-config-ubc-farm",
+	"name": "@ubc-farm/eslint-config",
 	"version": "4.0.0",
 	"main": "index.js",
 	"repository": "ubc-farm/eslint-config",
