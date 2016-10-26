@@ -20,13 +20,6 @@
     # Marked as TODO enable by airbnb
     no-template-curly-in-string: warn
 
-    # Since rollup is used to bundle in dependencies,
-    # some files will be imported from devDependencies.
-    # Should still be marked in bundledDependencies
-    import/no-extraneous-dependencies:
-      - error
-      - { devDependencies: true }
-
 
     # Only use ES2015 modules for rollup tree-shaking
     import/no-commonjs: warn
