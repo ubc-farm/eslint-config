@@ -17,9 +17,14 @@
       - error
       - { boolean: false, number: true, string: true, allow: [] }
 
-    # Marked as TODO enable by airbnb
-    no-template-curly-in-string: warn
+    # Omitting else can get confusing
+    no-else-return: off
 
+    # For loops are used for async, generators, iterators, etc.
+    no-restricted-syntax:
+      - error
+      - LabeledStatement
+      - WithStatement
 
     # Only use ES2015 modules for rollup tree-shaking
     import/no-commonjs: warn
