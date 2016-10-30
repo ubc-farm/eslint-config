@@ -1,7 +1,7 @@
 ---
   extends:
-    - ./index.yaml
     - airbnb
+    - ./index.yaml
   # Note: requires the eslint-plugin-react and eslint-plugin-jsx-a11y
   # dependencies
   rules:
