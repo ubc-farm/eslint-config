@@ -4,6 +4,8 @@
     - ./index.yaml
   # Note: requires the eslint-plugin-react and eslint-plugin-jsx-a11y
   # dependencies
+  env:
+    browser: true
   rules:
     react/jsx-indent:
       - warn

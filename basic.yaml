@@ -13,6 +13,9 @@
     # Handled by git
     linebreak-style: off
 
+    # PouchDB uses _id
+    no-underscore-dangle: off
+
     # Needed by rollup without plugins
     import/extensions: off
 
