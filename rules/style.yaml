@@ -269,10 +269,10 @@
       - error
       -
         groups:
-          - ['+', -, '*', '/', '%', '**']
+          - ['+', '-', '*', '/', '%', '**']
           - ['&', '|', '^', '~', '<<', '>>', '>>>']
           - ['==', '!=', '===', '!==', '>', '>=', '<', '<=']
-          - ['&&', '||'],
+          - ['&&', '||']
           - [in, instanceof]
         allowSamePrecedence: false
 
@@ -455,10 +455,10 @@
       - always
       -
         line:
-          exceptions: [-, '+']
+          exceptions: ['-', '+']
           markers: ['=', '!'] # space here to support sprockets directives
         block:
-          exceptions: [-, '+']
+          exceptions: ['-', '+']
           markers: ['=', '!'] # space here to support sprockets directives
           balanced: false
 
