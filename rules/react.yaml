@@ -317,4 +317,3 @@
           - .json
     react:
       pragma: React
-      version: 15.0

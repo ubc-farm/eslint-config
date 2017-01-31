@@ -1,6 +1,6 @@
 {
 	"name": "@ubc-farm/eslint-config",
-	"version": "5.0.2",
+	"version": "5.1.0",
 	"main": "index.js",
 	"repository": "ubc-farm/eslint-config",
 	"author": "Tiger Oakes (http://tigeroakes.com)",
