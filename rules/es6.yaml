@@ -110,7 +110,7 @@
 
     # suggest using of const declaration for variables that are never modified after declared
     prefer-const:
-      - error
+      - warn
       -
         destructuring: any
         ignoreReadBeforeAssign: true
